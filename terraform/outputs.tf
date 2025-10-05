@@ -7,3 +7,5 @@ output "cluster_name" {
   description = "ECS Cluster name"
   value       = aws_ecs_cluster.main.name
 }
+
+# output "route53_record_name" { ... }  # Comment out until Route53 enabled
